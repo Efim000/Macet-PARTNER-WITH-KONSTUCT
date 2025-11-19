@@ -1,6 +1,11 @@
 body{
     margin: 0 auto;
-    font-family: "Open Sans", sans-serif;;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    max-width: 941px;
+    width: 100%;
+    margin: 0 auto;
 }
 .header-page{
     background-image: url(../img/fon.jpg);
@@ -34,4 +39,243 @@ body{
     margin-top: 221px;
     margin-bottom: 71px;
     font-size: 11px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid Gainsboro;
+}
+
+
+.header-position{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.menu-link{
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    color: #48555b;
+    text-decoration: none;
+}
+
+.menu-link.menu-link--blue{
+  color: #00a4e5;
+  
+}
+
+.menu-logo{
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+
+.title{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #48555b;
+    margin: 57px 0 90px 0;
+
+
+}
+
+
+
+.title::after { 
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #00a4e5;
+    text-align: center;
+    margin: 10px 0 0 450px;
+}
+
+.hero-left{
+    width: 45%;
+}
+.hero-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    margin-bottom: 30px;
+}
+
+.hero-desc{
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.hero-right{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.hero-right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -10px -20px -10px;
+}
+
+
+
+
+.hero-right-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+.hero-right-container{
+    padding: 10px;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.we{
+    padding: 15px 45px 151px 14px;  
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    height: 100%;    
+}
+
+.we.we--p{
+   background: url(../img/WE\ PLAN.jpg); 
+   padding: 15px 45px 151px 14px;
+   box-sizing: border-box;
+}
+
+.we.we--m{
+    background: url(../img/WE\ MANAGE.jpg);  
+}
+
+
+.we.we--b{
+    background: url(../img/WE\ BUILD.jpg);
+}
+
+
+
+.capabilities-df{
+    display: flex;
+    justify-content: space-between;
+    margin: 117px 0 80px 0;
+}
+
+
+
+.title-capabilities{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+}
+.desc-capabilities{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    width: 405px;
+}
+.buttom-capabilities{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background-color: #00a4e5;
+    padding: 12px 29px 11px;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.buttom-capabilities:hover{
+    color: #00a4e5;
+    background-color: white;
+}
+
+
+
+
+.advantages-item{
+    padding: 38px 23px;  
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    height: 100%;
+    border: 1px solid Gainsboro;
+    
+}
+
+.advantages-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -14px;    
+}
+
+
+.advantages-item-container{
+    width: 33.3%;
+    padding:14px; 
+    box-sizing: border-box;
+}
+
+.advantes-item-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #48555b;
+}
+.advanted-item-desc{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.advantages-item-container img{
+    width: 65px;
+}
+
+
+
+
+.title-capabilities::after { 
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #00a4e5;
+    margin: 10px 0;
 }
