@@ -279,3 +279,239 @@ body{
     background-color: #00a4e5;
     margin: 10px 0;
 }
+.desc-capabilities{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    width: 405px;
+}
+.buttom-capabilities{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background-color: #00a4e5;
+    padding: 12px 29px 11px;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.buttom-capabilities:hover{
+    color: #00a4e5;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.advantages-item{
+    padding: 38px 23px;  
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    height: 100%;
+    border: 1px solid Gainsboro;
+    
+}
+
+.advantages-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -14px; 
+}
+
+.advantages-item-container{
+    width: 33.3%;
+    padding:14px; 
+    box-sizing: border-box; 
+}
+
+.advantes-item-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #48555b;
+}
+.advanted-item-desc{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.advantages-item-container img{
+    width: 65px;
+}
+
+
+
+
+
+
+
+
+
+.aside{
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.aside-row{
+    text-align: center;
+   
+    /* max-width: 1440px;
+    height: 500px;
+    object-fit: cover; */
+    
+    /* object-position: bottom; */
+
+}
+
+.aside-button{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    background:#00a4e5;
+    padding: 11px 26px;
+    display: inline-block;
+    margin-bottom: 230px;
+
+}
+
+.aside-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    margin: 120px 0 35px 0;
+
+}
+
+
+
+.newsletter{
+    background-color:  #171819;
+   display: flex;
+   justify-content: center;
+    
+}
+
+.newsletter-row{
+    padding: 30px 0;
+    display: flex;
+}
+
+.newsletter-row input{
+    padding: 10px 0 10px 16px;
+}
+
+.newsletter-title{
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-right: 70px;
+}
+
+.newsletter-button{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+
+    color: #fff;
+    background: #00a4e5;
+    padding: 11px 50px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.socials{
+    background-color: #141a20;
+}
+
+.socials-box{
+    display: flex;
+    padding: 40px 0 50px 0;
+}
+
+.socials-column-df{
+display: flex;
+}
+
+.socials-column-link{
+    list-style: none;
+}
+
+.socials-column{
+    margin-right: 71px;
+}
+
+.socials-column h2{
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+
+.socials-column p{
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+
+.socials-link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 227%;
+    letter-spacing: 0.08em;
+    color: #fff;
+    margin: 7px 0;
+}
+
+.socials-column-link{
+    margin: 0 40px 0 0;
+    padding: 0;
+}
+
+.socials-box a{
+    margin: 5px 5px;
+}
+
+.socials-column-title{
+    font-size: 11px;
+    color: #fff;
+}
+
+
+
+
+.copyright{
+    background-color: #171819;
+    text-align: center;
+}
+
+.copyright-text{
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #fff;
+    padding: 22px 0;
+}
